@@ -6,7 +6,7 @@ export default function Firstpage() {
         <Card style={{ width: '30rem', height: '45rem', display: 'flex', justifyContent: 'center' }} className='text-center'>
             <Card.Body className='d-flex flex-column'>
                 <Card.Title className='mt-4'id='card_title'><h1>Add both digits together to get a new number</h1></Card.Title>
-                <Link to='/forthpage'>
+                <Link id='linkmarg' to='/forthpage'>
                 <Button id='btn'style={{ width: '8rem' }} className='btn-lg'>Next</Button>
                 </Link>
                 <Card.Text id='text-3'>

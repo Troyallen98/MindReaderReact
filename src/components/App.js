@@ -5,6 +5,7 @@ import Secondpage from './Secondpage.js'
 import Thirdpage from './Thirdpage.js'
 import Forthpage from './Forthpage.js'
 import Fifthpage from './Fifthpage.js'
+import Answer from './Answer.js'
 import {
     BrowserRouter,
     Routes,
@@ -21,6 +22,7 @@ function App() {
                     <Route path='/thirdpage' element={<Thirdpage />}/>
                     <Route path='/forthpage' element={<Forthpage />}/>
                     <Route path='/fifthpage' element={<Fifthpage />}/>
+                    <Route path='/answer' element={<Answer />}/>
                 </Route>
             </Routes>
         </BrowserRouter>
